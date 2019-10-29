@@ -25,4 +25,4 @@ def group_equal(els):
                     spisok = []
     return full_spisok
 
-print(group_equal([1, 1, 4, 4, 4, "hello", "hello", 4, 4]))
+# print(group_equal([1, 1, 4, 4, 4, "hello", "hello", 4, 4]))
