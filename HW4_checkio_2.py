@@ -20,8 +20,9 @@ def group_equal(els):
             else:
                 if els[i] == els[i - 1]:
                     spisok.append(els[i])
+                    full_spisok.append(spisok)
                 else:
                     spisok = []
-                    spisok.append(els[i])
-                    full_spisok.append(spisok)
     return full_spisok
+
+print(group_equal([1, 1, 4, 4, 4, "hello", "hello", 4, 4]))
